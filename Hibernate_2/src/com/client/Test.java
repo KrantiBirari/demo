@@ -9,7 +9,7 @@ public class Test {
 public static void main(String[] args) {
 	Session session=HibernateUtil.getSessionFactory().openSession();
 	 Student s=new Student();
-	// s.setRollno(1);
+	 s.setRollno(1);
 	// s.setName("ck");
 	 //session.persist(s);
 	// session.update(s);
